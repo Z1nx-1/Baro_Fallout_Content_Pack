@@ -1,0 +1,4 @@
+<contentpackage name="Fallout Content Pack" modversion="0.1.0" corepackage="False"  gameversion="1.12.7.0">
+  <Item file="%ModDir%/attire/attire.xml" />
+  <Item file="%ModDir%/weapons/primary.xml" />
+</contentpackage>
