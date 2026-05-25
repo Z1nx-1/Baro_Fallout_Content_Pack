@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Afflictions>
+  <LaserDamage name="Laser Damage" identifier="LaserDamage" description="The wound is searing from a laser weapon." type="damage" causeofdeathdescription="Shot to death" selfcauseofdeathdescription="You have died of laser wounds." limbspecific="true" maxstrength="200" karmachangeonapplied="-1" damageoverlayalpha="2" WeaponsSkillGain="1.0">
+    <Description textidentifier="The laser wounds are minor." minstrength="0" maxstrength="40" />
+    <Description textidentifier="The wound is moderate from a laser weapon" minstrength="40" maxstrength="200" />
+    <Effect minstrength="0" maxstrength="200" multiplybymaxvitality="true" minvitalitydecrease="0" maxvitalitydecrease="2" dialogflag="GunshotWound" />
+    <icon texture="%ModDir%/afflictions/textures/AfflictionsSpriteSheet.png" sourcerect="0,895,129,129" color="195,60,60,255" origin="0,0" />
+  </LaserDamage>
+  <PlasmaDamage name="Plasma Damage" identifier="PlasmaDamage" description="The wound is covered in goo, melting the surrounding tissue from super-heated plasma." type="damage" causeofdeathdescription="Shot to death" selfcauseofdeathdescription="You have died super-heated plasma." limbspecific="true" maxstrength="200" karmachangeonapplied="-1" damageoverlayalpha="2" WeaponsSkillGain="1.0">
+    <Description textidentifier="The wounds are minor enough to only leave a faint burn scar." minstrength="0" maxstrength="40" />
+    <Description textidentifier="The wound is moderate but is oozing super-heated plasma." minstrength="40" maxstrength="200" />
+    <Effect minstrength="0" maxstrength="200" multiplybymaxvitality="true" minvitalitydecrease="0" maxvitalitydecrease="2" dialogflag="GunshotWound" />
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="256,768,128,128" color="195,60,60,255" origin="0,0" />
+  </PlasmaDamage>
+</Afflictions>
